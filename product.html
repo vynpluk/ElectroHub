@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroHub — Детали товара</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <div class="left">
+                <a href="index.html" style="text-decoration:none; color:white; font-size:24px;">←</a>
+                <h1 id="header-title">ElectroHub</h1>
+            </div>
+            <div class="right">
+                <a href="cart.html" class="cart-link">
+                    Корзина (<span id="cart-count">0</span>)
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="product-details" class="product-page-container" style="display: flex; gap: 50px; margin-top: 50px;">
+            <!-- Сюда JS вставит данные -->
+            <div id="loading">Загрузка товара...</div>
+        </div>
+    </main>
+
+    <script src="product-page.js"></script>
+</body>
+</html>

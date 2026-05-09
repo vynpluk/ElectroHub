@@ -1,0 +1,579 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 17 Pro",
+    "price": 1099,
+    "in_stock": true,
+    "description": "Флагман нового поколения с титановым корпусом и обновленной системой камер для профессиональной съемки.",
+    "specs": { "Экран": "6.3\" OLED", "Процессор": "A19 Bionic", "Камера": "48+48+48 Мп", "Зарядка": "USB-C" },
+    "image": "https://prod-cdn.prod.asbis.io/s3size/el:t/f:webp/rt:fill/w:900/plain/s3://cms/product/8a/8a/8a8ae008f8b519511bfc41e8d16b6f81/250915140023667226.webp"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S26 Ultra",
+    "price": 1299,
+    "in_stock": true,
+    "description": "Ультимативный Android-смартфон с поддержкой S Pen и самым мощным зумом на рынке.",
+    "specs": { "Экран": "6.8\" Dynamic AMOLED", "Процессор": "Snapdragon 8 Gen 5", "Батарея": "5000 мАч", "Зум": "100x" },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/kz_ru/s2602/gallery/kz-ru-galaxy-s26-ultra-s948-582105-sm-s948bzkqskz-thumb-551279132?imbypass=true"
+  },
+
+{
+  "id": 61,
+  "name": "Vivo X200 Ultra",
+  "price": 999,
+  "in_stock": true,
+  "description": "Флагман Vivo с упором на камеру и мощный процессор нового поколения.",
+  "specs": { "Экран": "6.8 AMOLED", "Процессор": "Snapdragon 8 Gen 4", "Камера": "200 Мп", "Батарея": "5500 мАч" },
+  "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x200-pro.jpg"
+},
+{
+  "id": 62,
+  "name": "Vivo X300 Ultra",
+  "price": 1199,
+  "in_stock": true,
+  "description": "Новейший флагман Vivo с продвинутой системой камер и AI-обработкой.",
+  "specs": { "Экран": "6.9 AMOLED", "Процессор": "Snapdragon 8 Gen 5", "Камера": "1-inch sensor", "Батарея": "5800 мАч" },
+  "image": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x100-ultra.jpg"
+},
+{
+  "id": 63,
+  "name": "Huawei P70 Pro",
+  "price": 899,
+  "in_stock": true,
+  "description": "Смартфон с мощной камерой и фирменной системой обработки изображений Huawei.",
+  "specs": { "Экран": "6.7 OLED", "Камера": "50 Мп XMAGE", "Батарея": "5000 мАч", "Связь": "5G" },
+  "image": "https://ir.ozone.ru/s3/multimedia-1-q/c1000/7018375598.jpg"
+},
+{
+  "id": 64,
+  "name": "Huawei P80 Ultra",
+  "price": 1199,
+  "in_stock": true,
+  "description": "Флагман Huawei с лучшей камерой в линейке и премиальным дизайном.",
+  "specs": { "Экран": "6.8 OLED", "Камера": "Ultra XMAGE", "Батарея": "5200 мАч", "Зум": "10x оптический" },
+  "image": "https://api.technodom.kz/f3/api/v1/images/292511_1.jpg"
+},
+{
+  "id": 65,
+  "name": "Xbox Series X",
+  "price": 599,
+  "in_stock": true,
+  "description": "Самая мощная консоль Xbox для игр в 4K и высокой частоте кадров.",
+  "specs": { "Разрешение": "4K", "FPS": "До 120", "Память": "1 ТБ SSD", "Ray Tracing": "Да" },
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX1VMmPsMC4fDPrQb3hol3T2N_augylhmpyA&s"
+},
+{
+  "id": 66,
+  "name": "Xbox Series S",
+  "price": 299,
+  "in_stock": true,
+  "description": "Компактная и доступная консоль для цифрового гейминга.",
+  "specs": { "Разрешение": "1440p", "FPS": "До 120", "Память": "512 ГБ SSD", "Привод": "Нет" },
+  "image": "https://ir.ozone.ru/s3/multimedia-y/6022833682.jpg"
+},
+{
+  "id": 67,
+  "name": "LG OLED C4 55\"",
+  "price": 1499,
+  "in_stock": true,
+  "description": "Премиальный OLED телевизор с идеальным черным цветом и поддержкой Dolby Vision.",
+  "specs": { "Экран": "55 OLED", "Разрешение": "4K", "HDR": "Dolby Vision", "Частота": "120Hz" },
+  "image": "https://www.lg.com/content/dam/channel/wcms/ca_en/images/tvs/oled55c4pua/oled-c4-55-a-gallery-06.jpg/jcr:content/renditions/thum-1600x1062.jpeg"
+},
+{
+  "id": 68,
+  "name": "Samsung QN90D 65\"",
+  "price": 1799,
+  "in_stock": true,
+  "description": "Яркий Neo QLED телевизор с отличной контрастностью и Mini LED подсветкой.",
+  "specs": { "Экран": "65 Neo QLED", "Разрешение": "4K", "HDR": "HDR10+", "Частота": "144Hz" },
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw32RexUHcfFymF0Mww1b1neUUI-JYEKnwUQ&s"
+},
+  {
+    "id": 3,
+    "name": "MacBook Air M5",
+    "price": 1099,
+    "in_stock": true,
+    "description": "Невероятно тонкий ноутбук, который работает бесшумно и держит заряд весь рабочий день.",
+    "specs": { "Чип": "Apple M5", "Память": "16 ГБ", "Экран": "Liquid Retina 13.6\"", "Вес": "1.24 кг" },
+    "image": "https://prod-cdn.prod.asbis.io/s3size/el:t/f:webp/rt:fill/plain/s3://cms/product/22/db/22db394fdb956aef60ce3127f7e4e194/260331160029274575.webp"
+  },
+  {
+    "id": 4,
+    "name": "Sony WH-1000XM5",
+    "price": 399,
+    "in_stock": true,
+    "description": "Мировой лидер в области активного шумоподавления. Идеальный звук в любых условиях.",
+    "specs": { "Тип": "Полноразмерные", "Шумоподавление": "Активное (ANC)", "Время работы": "30 ч", "Связь": "Bluetooth 5.2" },
+    "image": "https://sonycenter.kz/image/cache/catalog/products/new_img/audio/wh1000xm5/naushniki-sony-wh1000xm5-01-600x600.png"
+  },
+  {
+    "id": 5,
+    "name": "iPad Pro 13 (M5)",
+    "price": 1299,
+    "in_stock": true,
+    "description": "Самый тонкий продукт Apple в истории с невероятным Tandem OLED дисплеем.",
+    "specs": { "Экран": "13\" Ultra Retina", "Процессор": "M5", "Память": "256 ГБ", "Толщина": "5.1 мм" },
+    "image": "https://prod-cdn.prod.asbis.io/s3size/el:t/f:webp/rt:fill/w:900/plain/s3://cms/product/9c/0f/9c0fdeef5a02013ddea444638a538c28/251016120012940469.webp"
+  },
+  {
+    "id": 6,
+    "name": "PlayStation 5 Pro",
+    "price": 699,
+    "in_stock": true,
+    "description": "Игровая консоль с поддержкой PSSR для идеальной четкости графики при 60 FPS.",
+    "specs": { "Привод": "Цифровой", "Память": "2 ТБ SSD", "Видео": "4K 120Hz", "Ray Tracing": "Улучшенный" },
+    "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
+  },
+  {
+    "id": 7,
+    "name": "Apple Watch Series 11",
+    "price": 429,
+    "in_stock": true,
+    "description": "Ваш персональный тренер и помощник по здоровью с новым датчиком температуры.",
+    "specs": { "Корпус": "45 мм", "Экран": "Always-On OLED", "Защита": "WR50", "Датчики": "ЭКГ, Кислород" },
+    "image": "https://prod-cdn.prod.asbis.io/s3size/el:t/f:webp/rt:fill/w:900/plain/s3://cms/product/62/b6/62b687a44e0398d716f86baac5433e2b/250915140042353008.webp"
+  },
+  {
+    "id": 8,
+    "name": "Sony A1 II",
+    "price": 1050,
+    "in_stock": true,
+    "description": "Профессиональная беззеркальная камера для тех, кто не идет на компромиссы в качестве.",
+    "specs": { "Матрица": "50.1 Мп Full-Frame", "Видео": "8K 30p", "Автофокус": "AI-чип", "Скорость": "30 кадр/с" },
+    "image": "https://www.cined.com/content/uploads/2024/11/Sony-A1-II-full-frame-camera.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Nintendo Switch 2",
+    "price": 499,
+    "in_stock": true,
+    "description": "Новое поколение портативного гейминга с поддержкой DLSS и обратной совместимостью.",
+    "specs": { "Экран": "8\" LCD", "Разрешение": "1080p портатив", "Память": "256 ГБ", "Джойконы": "Магнитные" },
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Nintendo_Switch_2_console_in_handheld_mode.png"
+  },
+  {
+    "id": 10,
+    "name": "GoPro HERO14 Black",
+    "price": 449,
+    "in_stock": true,
+    "description": "Лучшая экшн-камера для самых экстремальных условий с невероятной стабилизацией.",
+    "specs": { "Видео": "5.3K 60fps", "Стабилизация": "HyperSmooth 7.0", "Защита": "До 10м без бокса", "Аккумулятор": "Enduro" },
+    "image": "https://avatars.mds.yandex.net/get-mpic/4399094/2a00000199df0b055efd3397d6bdd5d22c9e/orig"
+  },
+  {
+    "id": 11,
+    "name": "Google Pixel 10 Pro",
+    "price": 999,
+    "in_stock": true,
+    "description": "Смартфон с чистым Android и лучшими AI-функциями для обработки фото.",
+    "specs": { "Чип": "Tensor G5", "Камера": "Google AI Camera", "Поддержка": "7 лет обновлений", "Экран": "LTPO OLED" },
+    "image": "https://resources.cdn-kaspi.kz/img/m/p/p5e/p5f/62213566.png?format=gallery-large"
+  },
+  {
+    "id": 12,
+    "name": "ASUS ROG Zephyrus G16 (2024)",
+    "price": 2499,
+    "in_stock": true,
+    "description": "Мощный игровой ноутбук в элегантном алюминиевом корпусе с OLED-экраном.",
+    "specs": { "Процессор": "Ryzen 9 HX 370", "Видео": "RTX 4060", "Экран": "2.5K 240Hz", "Память": "32 ГБ" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/igrovoj_noutbuk_16_asus_rog_zephyrus_g16_ryzen_9_hx_370_16_1_rtx4060_8_dga605wv_qr077_282679_3.jpg"
+  },
+  {
+    "id": 13,
+    "name": "AirPods Pro 2 (USB-C)",
+    "price": 249,
+    "in_stock": true,
+    "description": "Наушники с адаптивным аудио и невероятным качеством звука в компактном кейсе.",
+    "specs": { "Защита": "IP54", "Звук": "Персональное пространственное", "Разъем": "USB-C", "Кейс": "MagSafe" },
+    "image": "https://api.fmobile.kz/image/media/sale/image/MTJV3_AV4%202023-10-20_13-13-01.601910%2056f5eeb843a9d12244c27712.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "DJI Mavic 3 Pro",
+    "price": 1599,
+    "in_stock": true,
+    "description": "Профессиональный дрон с трехкамерной системой для кинематографичных кадров.",
+    "specs": { "Камера": "Hasselblad", "Время полета": "43 мин", "Дальность": "15 км", "Датчики": "Всенаправленные" },
+    "image": "https://drone.kz/upload/resize_cache/webp/resize_cache/iblock/581/gs24w3n1erjqympg9ougqas6s5wemr1h/2000_2000_140cd750bba9870f18aada2478b24840a/696063393431269975bf316059d57787_origin.webp"
+  },
+  {
+    "id": 15,
+    "name": "Steam Deck OLED",
+    "price": 549,
+    "in_stock": true,
+    "description": "Портативный компьютер для игр из библиотеки Steam с сочным OLED экраном.",
+    "specs": { "Экран": "7.4\" HDR OLED", "Частота": "90 Гц", "Батарея": "50 Вт·ч", "Память": "512 ГБ NVMe" },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvVTYYQuDKzgYgJm1tI6ACVi3OAp-sQrR89Q&s"
+  },
+  {
+    "id": 16,
+    "name": "Samsung Galaxy Tab S10 Ultra",
+    "price": 1199,
+    "in_stock": true,
+    "description": "Самый большой и мощный планшет на Android для творчества и работы.",
+    "specs": { "Экран": "14.6\" AMOLED", "Стилус": "S Pen в комплекте", "Защита": "IP68", "Память": "12 ГБ" },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh2NJ1_zTuTJBhfosXD7EYDzjI_2tDFeqlXg&s"
+  },
+  {
+    "id": 17,
+    "name": "Dyson V15 Detect Absolute",
+    "price": 749,
+    "in_stock": true,
+    "description": "Беспроводной пылесос с лазерной подсветкой пыли и мощным двигателем.",
+    "specs": { "Мощность": "240 AW", "Фильтрация": "HEPA", "Время работы": "До 60 мин", "Насадки": "8 штук" },
+    "image": "https://object.pscloud.io/cms/cms/Photo/img_0_4128_310_0_1_59nfN3.webp"
+  },
+  {
+    "id": 18,
+    "name": "Kindle Paperwhite (16 GB)",
+    "price": 149,
+    "in_stock": true,
+    "description": "Электронная книга с регулировкой цветовой температуры и защитой от воды.",
+    "specs": { "Экран": "6.8\" E-Ink", "Плотность": "300 ppi", "Автономность": "До 10 недель", "Влагозащита": "IPX8" },
+    "image": "https://www.e-book.kz/upload/files/324829802(1).webp"
+  },
+  {
+    "id": 19,
+    "name": "Logitech g305",
+    "price": 99,
+    "in_stock": true,
+    "description": "Беспроводная игровая мышь с сенсором HERO и молниеносным откликом.",
+    "specs": { "Сенсор": "HERO 12K", "Отклик": "1 мс", "Вес": "99 г", "Батарейка": "До 250 ч" },
+    "image": "https://img.alser.kz/8S_feFZ4URm7jxjpv0z1CBsyE6PjgrnDj7Z6bbLx39U/rs:fit:0:270:0/f:webp/q:90/aHR0cHM6Ly9zM3MuYWxzZXIua3ovdXBsb2Fkcy9wcm9kdWN0cy9pZ3JvdnllLW15c2hpLzRCR0tRaW1qTi9sb2dpdGVjaC1nMzA1LWxpZ2h0c3BlZWQtd2lyZWxlc3MtZ2FtaW5nLW1vdXNlLS0tYmxhY2stLS1idC0tLWVlcjIud2VicA"
+  },
+  {
+    "id": 20,
+    "name": "Sonos Era 300",
+    "price": 449,
+    "in_stock": true,
+    "description": "Инновационная колонка с поддержкой пространственного аудио Dolby Atmos.",
+    "specs": { "Динамики": "6 штук", "Связь": "Wi-Fi, Bluetooth", "Управление": "Голосовое, Сенсорное", "Цвет": "Черный" },
+    "image": "https://www.euronics.lv/UserFiles/Products/Images/345417-519181-medium.avif"
+  },
+   {
+    "id": 21,
+    "name": "iPhone 16",
+    "price": 899,
+    "in_stock": true,
+    "description": "Сбалансированный смартфон Apple с мощным чипом и отличной камерой.",
+    "specs": { "Экран": "6.1 OLED", "Процессор": "A18 Bionic", "Камера": "48 Мп", "Зарядка": "USB-C" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/smartfon_apple_iphone_16_128gb_black_284603_01.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Samsung Galaxy Z Fold6",
+    "price": 1799,
+    "in_stock": true,
+    "description": "Складной смартфон с большим экраном для работы и развлечений.",
+    "specs": { "Экран": "7.6 AMOLED", "Процессор": "Snapdragon 8 Gen 4", "Память": "12 ГБ", "Камера": "50 Мп" },
+    "image": "https://api.fmobile.kz/image/media/sale/image/smartfon_gsm_samsung_galaxy_z_fold6_122567650_silver_shadow_sm_f956bzsbskz_282060_1%202024-07-11_17-16-04.956639%20715ec98550ef5ed0dea77446.jpg"
+  },
+  {
+    "id": 23,
+    "name": "MacBook Pro 16 M4",
+    "price": 2499,
+    "in_stock": true,
+    "description": "Профессиональный ноутбук для самых требовательных задач.",
+    "specs": { "Чип": "M4 Pro", "Память": "32 ГБ", "Экран": "16 Liquid Retina XDR", "SSD": "1 ТБ" },
+    "image": "https://prod-cdn.prod.asbis.io/s3size/el:t/f:webp/rt:fill/w:900/plain/s3://cms/product/d4/ec/d4ecbefcbb6bad5988fcaa3fa058b0f4/260413160021014280.webp"
+  },
+  {
+    "id": 24,
+    "name": "Sony PlayStation Portal",
+    "price": 299,
+    "in_stock": true,
+    "description": "Портативное устройство для стриминга игр с PS5.",
+    "specs": { "Экран": "8 LCD", "Разрешение": "1080p", "Связь": "Wi-Fi", "Контроллер": "DualSense" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/ustrojstvo_dlya_distancionnoj_igry_playstation_portal_dlya_ps5_278577_2.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Apple Vision pro",
+    "price": 1999,
+    "in_stock": true,
+    "description": "Легкая версия гарнитуры смешанной реальности Apple.",
+    "specs": { "Дисплей": "Micro-OLED", "Чип": "R2 + M5", "Управление": "Жесты", "Аудио": "Spatial" },
+    "image": "https://apple11.ru/34220/garnitura-smeshannoj-realnosti-apple-vision-pro-512gb.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Dell XPS 13 Plus",
+    "price": 1399,
+    "in_stock": true,
+    "description": "Стильный ультрабук с минималистичным дизайном.",
+    "specs": { "Экран": "13.4 OLED", "CPU": "Intel Core Ultra 7", "RAM": "16 ГБ", "SSD": "1 ТБ" },
+    "image": "https://shop.kz/upload/my/2022/164547v1.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Bose QuietComfort Ultra",
+    "price": 429,
+    "in_stock": true,
+    "description": "Премиальные наушники с лучшим шумоподавлением.",
+    "specs": { "Тип": "Over-Ear", "ANC": "Да", "Батарея": "24 ч", "Bluetooth": "5.3" },
+    "image": "https://images.satu.kz/236323632_w1280_h640_236323632.jpg"
+  },
+  {
+    "id": 28,
+    "name": "GoPro HERO13 Black",
+    "price": 399,
+    "in_stock": true,
+    "description": "Компактная экшн-камера для активного отдыха.",
+    "specs": { "Видео": "5.3K", "Стабилизация": "HyperSmooth", "Влагозащита": "10м", "Батарея": "Enduro" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/action_videokamera_gopro_hero_13_black_chdhx_131_rw_283733_01.jpg"
+  },
+  {
+    "id": 29,
+    "name": "DJI Mini 4 Pro",
+    "price": 899,
+    "in_stock": true,
+    "description": "Компактный дрон с отличной камерой и безопасным полетом.",
+    "specs": { "Вес": "<249g", "Видео": "4K 60fps", "Дальность": "10 км", "Время": "34 мин" },
+    "image": "https://drone.kz/upload/iblock/2c0/lzbdz2xe1ej3goz8lczfvoiwqnquu8ij/f96def8770cb7529d7a98731fa2117dd_origin.webp"
+  },
+  {
+    "id": 30,
+    "name": "Apple Watch Ultra 3",
+    "price": 799,
+    "in_stock": true,
+    "description": "Часы для экстремальных условий и спорта.",
+    "specs": { "Размер": "49 мм", "GPS": "Dual", "Защита": "WR100", "Материал": "Титан" },
+    "image": "https://itmag.kz/upload/iblock/524/74/product_image_131074_1408518.webp"
+  },
+  {
+    "id": 31,
+    "name": "HP Omen 16",
+    "price": 1699,
+    "in_stock": true,
+    "description": "Игровой ноутбук с высокой производительностью.",
+    "specs": { "CPU": "Intel i7", "GPU": "RTX 4070", "Экран": "165Hz", "RAM": "16 ГБ" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/288336_5.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Razer BlackShark V2 Pro",
+    "price": 199,
+    "in_stock": true,
+    "description": "Игровая гарнитура с отличным звуком.",
+    "specs": { "Тип": "Wireless", "Батарея": "70 ч", "Микрофон": "HyperClear", "Звук": "7.1" },
+    "image": "https://e-katalog.kz/jpg_zoom1/2472314.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Samsung Odyssey G9",
+    "price": 1299,
+    "in_stock": true,
+    "description": "Изогнутый игровой монитор с огромным экраном.",
+    "specs": { "Размер": "49", "Разрешение": "5120x1440", "Частота": "240Hz", "Тип": "QLED" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/287799_1.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Logitech MX Master 3S",
+    "price": 129,
+    "in_stock": true,
+    "description": "Универсальная мышь для работы и дизайна.",
+    "specs": { "DPI": "8000", "Связь": "Bluetooth", "Кнопки": "7", "Батарея": "70 дней" },
+    "image": "https://forcecom.kz/upload/iblock/b3d/hgkjrcw27ai92q67r2x8b2gi1l4gjr65.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Apple Magic Keyboard",
+    "price": 199,
+    "in_stock": true,
+    "description": "Стильная клавиатура для устройств Apple.",
+    "specs": { "Тип": "Wireless", "Зарядка": "USB-C", "Совместимость": "Mac/iPad" },
+    "image": "https://cdn-ultra.esempla.com/storage/webp/a000d976-b52d-43b7-baac-c24ce4d61c3d.webp"
+  },
+  {
+    "id": 37,
+    "name": "Xiaomi Smart Band 9",
+    "price": 69,
+    "in_stock": true,
+    "description": "Фитнес-браслет с долгой автономностью.",
+    "specs": { "Экран": "AMOLED", "Батарея": "14 дней", "Защита": "5ATM" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/fitnes_braslet_xiaomi_mi_smart_band_9_m2345b1bhr8340gl_silver_282938_1.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Meta Quest 3 ",
+    "price": 249,
+    "in_stock": true,
+    "description": "Умная колонка с экраном и Alexa.",
+    "specs": { "Экран": "10.1", "Ассистент": "Alexa", "Камера": "13 Мп" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/286488_1.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Corsair K70 RGB Pro",
+    "price": 179,
+    "in_stock": true,
+    "description": "Механическая клавиатура для геймеров.",
+    "specs": { "Switch": "Cherry MX", "Подсветка": "RGB", "Корпус": "Aluminium" },
+    "image": "https://assets.corsair.com/image/upload/c_pad,q_auto,h_1024,w_1024,f_auto/products/Gaming-Keyboards/CH-9109410-NA/Gallery/K70_RGB_PRO_PBT_01.webp"
+  },
+  {
+    "id": 41,
+    "name": "iPhone 15 Pro Max",
+    "price": 999,
+    "in_stock": true,
+    "description": "Флагман Apple с мощной камерой и титановым корпусом.",
+    "specs": { "Экран": "6.7 OLED", "Чип": "A17 Pro", "Камера": "48 Мп", "Материал": "Титан" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/smartfon_gsm_apple_iphone_15_pro_256gb_82566148_natural_titanium_mtv53_274408_1.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Samsung Galaxy S25 Ultra",
+    "price": 1199,
+    "in_stock": true,
+    "description": "Премиальный Android-смартфон с мощным зумом.",
+    "specs": { "Экран": "6.8 AMOLED", "Камера": "200 Мп", "Батарея": "5000 мАч", "Зум": "100x" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/288458_1.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Mac Studio M2 Ultra",
+    "price": 3999,
+    "in_stock": true,
+    "description": "Профессиональный компьютер для монтажа и 3D.",
+    "specs": { "Чип": "M2 Ultra", "RAM": "64 ГБ", "SSD": "2 ТБ", "GPU": "76-core" },
+    "image": "https://my-apple-store.ru/wa-data/public/shop/products/31/42/14231/images/26432/26432.500@2x.jpeg"
+  },
+  {
+    "id": 44,
+    "name": "ASUS ROG Phone 8",
+    "price": 1099,
+    "in_stock": true,
+    "description": "Игровой смартфон с охлаждением и высокой частотой экрана.",
+    "specs": { "Экран": "165Hz AMOLED", "CPU": "Snapdragon 8 Gen 3", "Батарея": "5500 мАч" },
+    "image": "https://dlcdnwebimgs.asus.com/files/media/E5096393-3043-4257-9117-5785F93F1A2A/v1/features/images/large/1x/kv/phone_right_light.png"
+  },
+  {
+    "id": 45,
+    "name": "Lenovo Legion 9i",
+    "price": 2799,
+    "in_stock": true,
+    "description": "Мощный игровой ноутбук с водяным охлаждением.",
+    "specs": { "CPU": "Intel i9", "GPU": "RTX 4090", "RAM": "32 ГБ", "Экран": "3.2K" },
+    "image": "https://p1-ofp.static.pub//fes/cms/2024/09/19/rwvdgddoc8ziicc5lik03r85gl2eeb186735.png"
+  },
+  {
+    "id": 46,
+    "name": "Apple AirTag (4-pack)",
+    "price": 99,
+    "in_stock": true,
+    "description": "Трекеры для поиска вещей через iPhone.",
+    "specs": { "Связь": "Bluetooth UWB", "Батарея": "1 год", "Количество": "4 шт" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/246756_1.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Sony WH-1000XM6",
+    "price": 449,
+    "in_stock": true,
+    "description": "Флагманские наушники с лучшим шумоподавлением.",
+    "specs": { "ANC": "Adaptive", "Батарея": "40 ч", "Bluetooth": "5.4" },
+    "image": "https://sonycenter.kz/image/catalog/products/new_img/audio/wh1000xm6/naushniki-WH1000XM6b-01.png"
+  },
+  {
+    "id": 48,
+    "name": "DJI Air 3S",
+    "price": 1099,
+    "in_stock": true,
+    "description": "Дрон с двойной камерой для профессиональной съёмки.",
+    "specs": { "Видео": "5.4K", "Время": "46 мин", "Дальность": "20 км" },
+    "image": "https://mavic.kz/wp-content/uploads/2023/08/f837131db8e33b7229d08b425cda0093@origin.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Google Pixel 9 Pro",
+    "price": 999,
+    "in_stock": true,
+    "description": "AI-смартфон с лучшей камерой от Google.",
+    "specs": { "Чип": "Tensor G4", "Камера": "AI 50 Мп", "Обновления": "7 лет" },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDTm2ILVXRdx5NYUvoqExxyHrEatlDvDkbmA&s"
+  },
+  {
+    "id": 52,
+    "name": "Alienware m18",
+    "price": 3199,
+    "in_stock": true,
+    "description": "Топовый игровой ноутбук от Dell.",
+    "specs": { "CPU": "Intel i9", "GPU": "RTX 4090", "Экран": "18 QHD+" },
+    "image": "https://microless.com/cdn/products/084e1117f0e2b4e1f24b5dc47f9b3f48-hi.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Samsung Galaxy Tab S10+",
+    "price": 1099,
+    "in_stock": true,
+    "description": "Премиальный планшет для работы и творчества.",
+    "specs": { "Экран": "12.4 AMOLED", "S Pen": "Да", "Память": "256 ГБ" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/planshet_galaxy_tab_s10_256gb_gray_285660_01.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Canon EOS R5 II",
+    "price": 3499,
+    "in_stock": true,
+    "description": "Профессиональная камера для фото и видео.",
+    "specs": { "Матрица": "45 Мп", "Видео": "8K", "Скорость": "30 fps" },
+    "image": "https://pspdf.kz/image/catalog/products/camera/canon/r5-markii/24-105-4.0/7.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Sony A7 IV",
+    "price": 2499,
+    "in_stock": true,
+    "description": "Беззеркальная камера для профессионалов.",
+    "specs": { "Матрица": "33 Мп", "Видео": "4K 60fps", "AF": "Real-time AI" },
+    "image": "https://sonycenter.kz/image/cache/catalog/products/old/ILCE7M4B.CEC/ILCE7M4B.CEC-10110-600x600.png"
+  },
+  {
+    "id": 56,
+    "name": "Logitech G Pro X Superlight 2",
+    "price": 149,
+    "in_stock": true,
+    "description": "Сверхлёгкая игровая мышь.",
+    "specs": { "Вес": "60 г", "DPI": "32000", "Связь": "Wireless" },
+    "image": "https://api.technodom.kz/f3/api/v1/images/800/800/igrovaya_mysh_besprovodnaya_logitech_g_pro_x_superlight_2_white_274193_1.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Apple TV 4K (2025)",
+    "price": 179,
+    "in_stock": true,
+    "description": "Медиаплеер для фильмов и игр.",
+    "specs": { "Разрешение": "4K HDR", "Чип": "A16", "Память": "128 ГБ" },
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEZRFjSfQDxmupRSJv8qMGbHTwq1jogwswg&s"
+  },
+  {
+    "id": 58,
+    "name": "Samsung Smart Monitor M8",
+    "price": 699,
+    "in_stock": true,
+    "description": "Монитор с функциями Smart TV.",
+    "specs": { "Экран": "32 UHD", "Smart TV": "Да", "HDR": "10+" },
+    "image": "https://images.samsung.com/is/image/samsung/p6pim/ph/ls32dm801uexxp/gallery/ph-smart-m8-32m80d-ls32dm801uexxp-541230202"
+  },
+  {
+    "id": 59,
+    "name": "Garmin Fenix 8",
+    "price": 899,
+    "in_stock": true,
+    "description": "Премиальные спортивные часы.",
+    "specs": { "GPS": "Multi-band", "Батарея": "20 дней", "Водозащита": "100м" },
+    "image": "https://e-katalog.kz/jpg_zoom1/2753134.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Razer Blade 16",
+    "price": 2899,
+    "in_stock": true,
+    "description": "Премиальный игровой ноутбук в тонком корпусе.",
+    "specs": { "CPU": "Intel i9", "GPU": "RTX 4080", "Экран": "Mini LED 240Hz" },
+    "image": "https://forcecom.kz/upload/iblock/84a/jmmpgg3h4q7s2vomx95uwo7ropwfs35b.jpg  "
+  }
+]

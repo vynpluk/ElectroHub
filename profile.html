@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль пользователя</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Иконки -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+<div class="profile-container">
+    <!-- Состояние: Аккаунт не найден -->
+    <div class="profile-card status-not-found" id="profileCard">
+        <div class="profile-icon">
+            <i class="fas fa-user-slash"></i>
+        </div>
+        <h1>Аккаунт не найден</h1>
+        <p>К сожалению, пользователя с таким ID не существует или доступ ограничен.</p>
+        
+        <button class="btn-primary" onclick="showLoginForm()">Войти в другой аккаунт</button>
+        <a href="index.html" class="back-link">Вернуться на главную</a>
+    </div>
+
+    <!-- Форма входа (скрыта по умолчанию) -->
+    <div class="profile-card login-form" id="loginForm" style="display: none;">
+        <h2>Авторизация</h2>
+        <form id="fakeLoginForm">
+            <div class="input-group">
+                <input type="text" placeholder="Логин или Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Пароль" required>
+            </div>
+            
+            <!-- Сообщение об ошибке -->
+            <div id="errorMessage" class="error-banner">
+                <i class="fas fa-exclamation-circle"></i> 
+                Ошибка: Неверный логин или пароль.
+            </div>
+
+            <button type="submit" class="btn-primary">Войти</button>
+        </form>
+        <button class="btn-ghost" onclick="hideLoginForm()">Назад</button>
+    </div>
+</div>
+
+<script>
+    function showLoginForm() {
+        document.getElementById('profileCard').style.display = 'none';
+        document.getElementById('loginForm').style.display = 'block';
+    }
+
+    function hideLoginForm() {
+        document.getElementById('profileCard').style.display = 'block';
+        document.getElementById('loginForm').style.display = 'none';
+        document.getElementById('errorMessage').style.display = 'none';
+    }
+
+    // Логика "вечной" ошибки
+    document.getElementById('fakeLoginForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const error = document.getElementById('errorMessage');
+        error.style.display = 'flex';
+        
+        // Эффект дрожания при ошибке
+        const card = document.getElementById('loginForm');
+        card.style.animation = 'none';
+        card.offsetHeight; // триггер рефлоу
+        card.style.animation = 'shake 0.4s';
+    });
+</script>
+
+</body>
+</html>

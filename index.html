@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ElectroHub — Магазин</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<header>
+  <div class="header-inner container">
+    
+    <!-- LEFT: Logo & Brand -->
+    <div class="left">
+      <img class="logo" src="logo.png" alt="ElectroHub Logo">
+      <h1>ElectroHub</h1>
+    </div>
+
+    <!-- CENTER: Search Bar -->
+    <div class="center">
+      <div class="search-box">
+      <input id="search" class="search" placeholder="Поиск товаров...">
+        <button type="submit" class="search-btn">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- RIGHT: Profile & Cart -->
+    <div class="right">
+      <nav>
+        <a href="profile.html" class="nav-item">
+          <i class="fa-regular fa-user"></i>
+          <span>Профиль</span>
+        </a>
+      </nav>
+      
+      <a href="cart.html" class="cart-link">
+        <div class="cart-icon-wrapper">
+          <i class="fa-solid fa-cart-shopping cartimg"></i>
+        </div>
+        <span>Корзина <span id="cart-count">0</span></span>
+      </a>
+    </div>
+
+  </div>
+</header>
+<section class="quiz-banner">
+  <div class="container quiz-banner-inner">
+    <div>
+      <strong>Не знаете, что подобрать?</strong>
+      <p>Мы поможем выбрать лучший гаджет под ваши задачи.</p>
+    </div>
+    <button class="quiz-start-btn" onclick="openQuiz()">Начать</button>
+  </div>
+</section>
+
+<div id="quiz-modal" class="quiz-modal hidden">
+  <div class="quiz-panel">
+    <div class="quiz-inner">
+      <button class="close-btn" onclick="closeQuiz()">✖</button>
+      <div id="q-box">
+        <h2 id="q-title">Вопрос</h2>
+        <div id="q-answers"></div>
+      </div>
+      <div id="q-result"></div>
+    </div>
+  </div>
+</div>
+
+     <main class="container">
+       <section class="filters-section">
+         <div class="filters-controls">
+           <select id="category-filter" class="filter-select">
+             <option value="">Все категории</option>
+             <option value="phone">Телефоны</option>
+             <option value="laptop">Ноутбуки</option>
+             <option value="tablet">Планшеты</option>
+             <option value="audio">Наушники</option>
+             <option value="gaming">Игровые консоли</option>
+             <option value="camera">Камеры</option>
+             <option value="wearable">Умные устройства</option>
+             <option value="tv">Телевизоры</option>
+           </select>
+           <select id="sort-select" class="filter-select">
+             <option value="default">Сортировка</option>
+             <option value="price-low">Цена: от меньшей</option>
+             <option value="price-high">Цена: от большей</option>
+             <option value="name">По названию (А-Я)</option>
+           </select>
+         </div>
+       </section>
+       <div id="product-grid" class="grid"></div>
+     </main>
+    <script src="script.js"></script>
+  </body>
+</html>
