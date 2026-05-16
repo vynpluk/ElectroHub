@@ -1242,11 +1242,23 @@ img {
    TABLET
 ========================= */
 
-@media (max-width: 992px) {
+/* =========================
+   АДАПТИВ
+========================= */
+
+@media (max-width: 768px) {
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* ХЕДЕР */
 
   .header-inner {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
   }
 
   .left,
@@ -1256,129 +1268,68 @@ img {
     justify-content: center;
   }
 
-  .right {
-    gap: 16px;
-  }
+  /* БОЛЬШОЙ ЛОГО НА ТЕЛЕФОНЕ */
 
-  .search-box {
-    max-width: 100%;
-  }
-
-  .product-page,
-  .product-container,
-  .product-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .product-info {
-    width: 100%;
-  }
-
-  .footer-inner {
-    gap: 30px;
-  }
-}
-
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 768px) {
-
-  body {
-    font-size: 14px;
-  }
-
-  header {
-    padding: 12px 0;
-  }
-
-  .header-inner {
-    gap: 15px;
-  }
-
-  .left {
-    justify-content: center;
-    width: 100%;
+  .logo {
+    width: 110px;
+    height: 110px;
   }
 
   .left h1 {
-    font-size: 18px;
-  }
-
-  .logo {
-    width: 70px;
-    height: 70px;
-  }
-
-  .center {
-    width: 100%;
-  }
-
-  .search {
-    font-size: 14px;
-    padding: 11px 14px;
-    padding-right: 42px;
+    font-size: 22px;
   }
 
   .right {
-    width: 100%;
-    justify-content: center;
     gap: 14px;
+    flex-wrap: wrap;
   }
 
   .nav-item {
     font-size: 14px;
   }
 
-  .filters-controls {
-    flex-direction: column;
-  }
+  /* ПОИСК */
 
-  .filter-select {
+  .search-box,
+  .search {
     width: 100%;
   }
+
+  /* СЕТКА ТОВАРОВ */
 
   #product-grid,
   .products-grid,
   .product-grid,
   .grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 15px;
   }
 
-  .product-card,
-  .card,
-  .product {
-    border-radius: 18px;
-    overflow: hidden;
+  /* СТРАНИЦА ТОВАРА */
+
+  .product-page,
+  .product-container,
+  .product-wrapper {
+    flex-direction: column;
   }
 
-  .product-card img,
-  .card img,
-  .product img {
+  .product-image,
+  .product-info {
     width: 100%;
-    height: auto;
   }
+
+  /* КОРЗИНА */
 
   .cart-item {
     flex-direction: column;
     text-align: center;
   }
 
-  .cart-item img {
-    width: 100px;
-  }
+  /* ФУТЕР */
 
   .footer-inner {
     flex-direction: column;
     text-align: center;
-  }
-
-  .footer-col h3::after {
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   .footer-logo {
@@ -1388,31 +1339,18 @@ img {
   .socials {
     justify-content: center;
   }
+
+  .footer-col h3::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 /* =========================
-   SMALL PHONES
+   МАЛЕНЬКИЕ ТЕЛЕФОНЫ
 ========================= */
 
 @media (max-width: 480px) {
-
-  .container {
-    padding-left: 14px;
-    padding-right: 14px;
-  }
-
-  .left h1 {
-    font-size: 16px;
-  }
-
-  .right {
-    gap: 10px;
-  }
-
-  .nav-item {
-    font-size: 13px;
-    gap: 6px;
-  }
 
   #product-grid,
   .products-grid,
@@ -1421,22 +1359,9 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .product-card,
-  .card,
-  .product {
-    width: 100%;
+  .logo {
+    width: 125px;
+    height: 125px;
   }
 
-  .search {
-    font-size: 13px;
-  }
-
-  .footer {
-    padding-top: 40px;
-  }
-
-  .footer-col {
-    min-width: 100%;
-  }
 }
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
